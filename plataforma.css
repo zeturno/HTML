@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-top: 20px;
+  }
+  html{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz-NbmsZ9gr44ft3QXLjzVudQiCJeUbV4p_A&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Geral{
+    transition: transform 0,3s;
+}
+.Geral:hover{
+    transform: scale(1.1);
+}
+
+
+
+  .Segmento {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+
+
+  
+.Segmento .Primeiro {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 250px;
+        height: 100px;
+        margin: 20px;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        background-image: url("https://www.florence.edu.br/blog/wp-content/uploads/2021/08/Florence-dia-do-estudante.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform 0.3s;
+        
+        
+    }
+    
+.Segmento .Primeiro:hover{
+        transform: scale(1.1); 
+    }
+
+
+    .Primeiro h2 {
+        margin-top: 0;
+        color: #333;
+    }
+    
+    .Primeiro p {
+        color: #666;
+    }
+    .Segundo {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 250px;
+        height: 100px;
+        margin: 20px;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        background-image: url("https://blog.ead.unipar.br/wp-content/uploads/2021/08/7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform 0,3s;
+    }
+   .Segundo:hover{
+        transform: scale(1.1);
+    }
+    
+    .Segundo h2 {
+        margin-top: 0;
+        color: #333;
+    }
+    
+    .Segundo p {
+        color: #666;
+    }
+    
+     .Terceiro {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 250px;
+        height: 100px;
+        margin: 20px;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        background-image: url("https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/08/07/dia-do-estudante-1hrlykg8h7ubd.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform 0,3s;
+    }
+.Terceiro:hover{
+        transform: scale(1.1);
+    }
+    
+    .Terceiro h2 {
+        margin-top: 0;
+        color: #333;
+    }
+    
+    .Terceiro p {
+        color: #666;
+    }
+
+
